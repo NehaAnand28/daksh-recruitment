@@ -18,65 +18,63 @@
   </head>
   <body>
     <!-- NavBar -->
-    <header>
-      <h1>Daksh</h1>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>Events</li>
-          <li>Team</li>
-          <li>Contact Us</li>
+    <header class="navbar">
+      <h1 class="navbar-brand" >Daksh</h1>
+      <nav class="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">Home</li>
+          <li class="nav-item">Events</li>
+          <li class="nav-item">Team</li>
+          <li class="nav-item">Contact Us</li>
         </ul>
       </nav>
     </header>
 
-    <section>
-      <article>
-        <img src="undraw_profile_data_re_v81r.svg" alt="Contact Us" />
-        <p>
+    <section class="container">
+      <article class="row">
+        <img src="undraw_profile_data_re_v81r.svg" alt="Contact Us" class="left-part" />
+        <p class="right-part">
           We are always in the lookout for feedback and suggestions. Shoot your
           queries and rest assured, we'll get back to you ASAP!
         </p>
       </article>
     </section>
 
-    <div>
-      <i>"Feedback is the breakfast of champions.”</i>
-      <b> - Ken Blanchard</b>
+    <div class="bubble">
+      <i class="quote-text">Feedback is the breakfast of champions.</i>
+      <b class="quote-author"> - Ken Blanchard</b>
     </div>
 
-    <section>
+    <section class="form-section">
       <div>
-        <form>
-          <fieldset>
-            <legend>Write to us</legend>
+        <form class="form-group">
+          <fieldset class="form-details">
+            <legend class="contact-header">Write to us</legend>
             <label for="fname">First name:</label>
             <input type="text" id="fname" name="fname" placeholder="Vijay" />
             <br />
             <label for="college">College:</label>
             <input list="colleges" name="college" id="college" />
-            <datalist id="colleges">
+            <datalist id="colleges" >
               <option value="SASTRA Thanjavur"></option>
               <option value="IIT Madras"></option>
               <option value="NIT Trichy"></option>
               <option value="SSN Chennai"></option>
             </datalist>
             <br />
-            <input type="submit" value="Submit" />
+            <input class="form-btn" type="submit" value="Submit" />
           </fieldset>
         </form>
       </div>
     </section>
     <footer>
-      <span
-        >DAKSH, the international techno-management festival of SASTRA
-        University</span
-      >
-      <span>
-        <a target="_blank" href="https://instagram.com"
+      <span class="footer-text">DAKSH, the international techno-management festival of SASTRA
+        University</span>
+      <span class="footer-icons">
+        <a class="icon-item" target="_blank" href="https://instagram.com"
           ><div><img src="instagram.png" /></div
         ></a>
-        <a target="_blank" href="https://twitter.com"
+        <a class="icon-item" target="_blank" href="https://twitter.com"
           ><div><img src="twitter.png" /></div
         ></a>
       </span>
