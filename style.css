@@ -100,7 +100,7 @@ img {
   }
 }
 
-/* Quote */
+/* Speech bubble */
 .bubble {
     position: relative;
     background: #afb6ba;
@@ -191,9 +191,9 @@ img {
   }
 }
 @media (max-width: 500px) {
-  .quote {
+  /* .quote {
     padding: 1rem;
-  }
+  } */
   .quote-text::before {
     font-size: 1.5rem;
   }
